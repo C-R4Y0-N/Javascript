@@ -94,7 +94,71 @@
 
 //LOS MISMO PERO CON FOR
 
-for(let i=1; i<=10; i++)
-{
-    console.log(i)
+//for(let i=1; i<=10; i++)
+//{
+//    console.log(i)
+//}
+
+//FUNCIONES 
+//saludar()
+//
+//function saludar()
+//{
+//    console.log("Hola mamá")
+//}
+//
+//function saludarconnombre(nombre, edad)
+//{
+//    console.log("hola "+nombre)
+//    console.log("Tu edad es "+ edad)
+//}
+//
+//
+//saludarconnombre("laura",18)
+//
+//function multiplicacion(num1,num2)
+//{
+//    let resultado = num1 * num2
+//    return resultado
+//}
+//
+//let recibidor = multiplicacion(2,5)
+//console.log(recibidor)
+
+//ARRAYS
+
+//let miArreglo = ["David","Fernando","Kevin"]
+//console.log(miArreglo)
+//
+//for(let i=0; i<3; i++)
+//{
+//    console.log(miArreglo[i])
+//}
+
+let persona = {
+    nombre : "David",
+    edad: 24,
+    masculino: true,
 }
+
+persona.comidafavorita="Hamburguesa"
+
+let persona2 = {
+    nombre : "Omar",
+    edad: 16,
+    masculino: false,
+}
+
+console.log(persona)
+
+console.log(persona2)
+
+console.log(persona.nombre)
+
+persona.nombre="Ya no eres David"
+
+console.log(persona.nombre)
+
+let arreglodDeObjetos = [persona,persona2]
+
+

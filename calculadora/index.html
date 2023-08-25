@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora</title>
+    <script src="./index.js" defer></script>
+    <style>
+        body{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        input
+        {
+            display: block;
+            margin: auto;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora HTML</h1>
+    <form action="" method="dialog">
+        <input type="text" id="001" placeholder="Operador 1">
+        <input type="text" id="operador" placeholder="+, -, *, /">
+        <input type="text" id="002" placeholder="Operador 2">
+        <input type="submit" value="Calcular" id="calcular" onclick=Calcular()>
+    </form>
+    <p id="resultado"></p>
+</body>
+</html>
